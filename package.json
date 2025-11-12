@@ -1,0 +1,27 @@
+{
+  "name": "loca",
+  "displayName": "LOCA",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "activationEvents": [
+    "onCommand:loca.helloWorld"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "loca.helloWorld",
+        "title": "Hello from LOCA"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.105.0",
+    "typescript": "^5.9.3"
+  }
+}
