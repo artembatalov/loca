@@ -3,3 +3,5 @@ out/
 
 *.js
 *.js.map
+
+.DS_Store
