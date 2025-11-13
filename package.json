@@ -6,14 +6,15 @@
     "vscode": "^1.90.0"
   },
   "activationEvents": [
-    "onCommand:loca.helloWorld"
+    "onStartupFinished",
+    "onCommand:loca.recalculateMetrics"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "loca.helloWorld",
-        "title": "Hello from LOCA"
+        "command": "loca.recalculateMetrics",
+        "title": "Recalculate LOCA Metrics"
       }
     ]
   },
@@ -22,6 +23,8 @@
   },
   "devDependencies": {
     "@types/vscode": "^1.105.0",
+    "typedoc": "^0.28.14",
+    "typedoc-plugin-markdown": "^4.9.0",
     "typescript": "^5.9.3"
   }
 }

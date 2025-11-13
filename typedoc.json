@@ -1,0 +1,9 @@
+{
+  "entryPoints": ["src/extension.ts"],
+  "out": "docs",
+  "readme": "none",
+  "plugin": ["typedoc-plugin-markdown"],
+  "hideBreadcrumbs": true,
+  "hidePageHeader": true,
+  "hidePageTitle": true,
+}

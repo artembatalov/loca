@@ -1,0 +1,2 @@
+# LOCA
+LOCA (Lines Of Code Analyzer) is Visual Studio Code plugin developed by Artem Batalov (ITMO university student, Software Engineering, M3105) which counts code lines number of each function in opened C++ file.
